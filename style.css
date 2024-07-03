@@ -1,0 +1,264 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav {
+    position: fixed;
+}
+
+.dropdown-menu a {
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+}
+
+.container-1 {
+    padding: 0% 8%;
+    /* padding-bottom: 10px; */
+    background-color: white;
+}
+
+.sing {
+    background: #00baf2;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: #000;
+    font-weight: bolder;
+    padding: 17px;
+    padding-right: 13%;
+}
+
+.about {
+    background-color: #fedc26;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    margin-top: 100px;
+}
+
+.knowmore {
+    /* line-height: 3; */
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 23px;
+    position: relative;
+    top: 17px;
+}
+
+.clickimg {
+    position: relative;
+    top: 17px;
+}
+
+.pytamimg {
+    width: 80px;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+    border-radius: 16px;
+}
+
+.container-2 {
+    margin: 120px 0px 0px 90px;
+}
+
+.mobileimg {
+    width: 70%;
+    float: right;
+}
+
+.downlode {
+    width: 40%;
+    margin: auto;
+}
+
+.downlode h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.downlode p {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.recharge .row {
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+
+.recharge2 p {
+    font-size: 15px;
+    word-spacing: 8px;
+    font-weight: 600;
+}
+
+.recharge img {
+    width: 65px;
+}
+
+.bookbuy {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.wallet {
+    width: 175px;
+    display: flex;
+    align-items: center;
+}
+
+#costum-btn:hover {
+    background-color: white;
+    /* Change this to the desired hover color */
+    color: black;
+    /* Change text color when button is hovered */
+}
+
+#learnbtn {
+    height: 45px;
+    width: 168px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #14146d;
+}
+
+#learnbtn:hover {
+    background-color: #00baf2;
+    ;
+}
+
+#backimg {
+    background-image: url(https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png);
+}
+
+.tools img {
+    width: 90%;
+}
+
+#toolshead {
+    width: 36%;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.tools h2 {
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 70%;
+}
+
+.tools p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 80%;
+}
+
+.stocks {
+    width: 180px;
+    height: 270px;
+    background-color: #00baf2;
+    border-radius: 5%;
+}
+
+.stocks img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.stocks h6 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.stocks span {
+    text-decoration: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#footer span img {
+    margin-top: 40px;
+}
+
+#footer span {
+    font-size: 14px;
+    color: #505050;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width:450px) {
+    .clickimg {
+        position: relative;
+        top: 25px;
+    }
+    .about {
+        height: 120px;
+        margin-top: -30px;
+        margin-top: 100px;
+    }
+    .navbar-nav {
+        background-color: white;
+        z-index: 1;
+        width: 100%;
+    }
+    #toolshead {
+        width: 35%;
+    }
+    #stocktop {
+        display: flex;
+        flex-direction: column;
+    }
+    #toolshead {
+        font-size: 2.5rem;
+        width: 85%;
+    }
+    #second {
+        display: flex;
+        flex-direction: column;
+    }
+    .downlodeaap {
+        flex-direction: column;
+    }
+    #downlodebtn {
+        display: flex;
+        flex-direction: column;
+    }
+    .aapimg {
+        width: 50%;
+    }
+}
